@@ -1,6 +1,6 @@
 from sqlalchemy.util import timezone
 
-from database import Base
+from .database import Base
 from sqlalchemy import Column, INTEGER, String, BOOLEAN, TIMESTAMP, text
 
 
