@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 
 # SQLALCHEMY_DATABASE_URL = "sqlite:///./sql_app.db"
 
-SQLALCHEMY_DATABASE_URL = 'postgresql://Aditya:Pudge0071@querydb.postgres.database.azure.com/querydb?sslmode=require'
+SQLALCHEMY_DATABASE_URL = 'postgresql://Aditya:####@querydb.postgres.database.azure.com/querydb?sslmode=require'
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL
                        )
