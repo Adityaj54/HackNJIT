@@ -1,0 +1,1 @@
+gunicorn -w 2 -k uvicorn.workers.UvicornWorker hacks.main:app
